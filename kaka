@@ -6,7 +6,7 @@ local Mouse = game:GetService("Players").LocalPlayer:GetMouse()
 local Info = {}
 local Toggles = {}
 local ChangedConnections = {}
-local Folder = "eterna.wtf"
+local Folder = "TreeHub"
 
 function FireConnections() 
     for i,v in next, ChangedConnections do 
@@ -105,7 +105,7 @@ end
 local Bindable = Instance.new("BindableEvent")
 function Library.Render(settings)
     local settings = settings or {}
-    local Title = settings.Text or settings.Title or "<font color=\"rgb(114,150,164)\">ETERNA</font>.WTF"
+    local Title = settings.Text or settings.Title or "<font color=\"rgb(34,199,78)\">Tree</font>Hub"
     local SavePosition = settings.SavePosition or false
     local Options = settings.Options or {}
 
@@ -167,7 +167,7 @@ function Library.Render(settings)
     uiName.Size = UDim2.new(1, 0, 0, 15)
     uiName.Font = Enum.Font.GothamMedium
     uiName.RichText = true
-    uiName.Text = "<font color=\"rgb(114,150,164)\">ETERNA</font>.WTF"
+    uiName.Text = "<font color=\"rgb(34,199,78)\">Tree</font>Hub"
     uiName.TextColor3 = Color3.fromRGB(235, 235, 235)
     uiName.TextSize = 13.000
 

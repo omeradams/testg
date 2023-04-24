@@ -478,7 +478,7 @@ function Library.Render(settings)
         
         Tab.Name = "Tab"
         Tab.Parent = TabList
-        Tab.BackgroundColor3 = Color3.fromRGB(230, 240, 242)
+        Tab.BackgroundColor3 = Color3.fromRGB(34,199,78)
         Tab.BackgroundTransparency = 1
         Tab.Position = UDim2.new(0.0686274543, 0, 0, 0)
         Tab.Size = UDim2.new(0, 132, 0, 28)
@@ -510,7 +510,7 @@ function Library.Render(settings)
         Shadow_3.Position = UDim2.new(0, -15, 0, -15)
         Shadow_3.Size = UDim2.new(1, 30, 1, 30)
         Shadow_3.Image = "rbxassetid://5554236805"
-        Shadow_3.ImageColor3 = Color3.fromRGB(230, 240, 242)
+        Shadow_3.ImageColor3 = Color3.fromRGB(34,199,78)
         Shadow_3.ImageTransparency = 1.000
         Shadow_3.ScaleType = Enum.ScaleType.Slice
         Shadow_3.SliceCenter = Rect.new(23, 23, 277, 277)
@@ -895,7 +895,7 @@ function Library.Render(settings)
                 Shadow.Position = UDim2.new(0, -15, 0, -15)
                 Shadow.Size = UDim2.new(1, 30, 1, 30)
                 Shadow.Image = "rbxassetid://5554236805"
-                Shadow.ImageColor3 = Color3.fromRGB(230, 240, 242)
+                Shadow.ImageColor3 = Color3.fromRGB(34,199,78)
                 Shadow.ScaleType = Enum.ScaleType.Slice
                 Shadow.SliceCenter = Rect.new(23, 23, 277, 277)
 
@@ -1053,7 +1053,7 @@ function Library.Render(settings)
 
                 bar.Name = "bar"
                 bar.Parent = SliderButton
-                bar.BackgroundColor3 = Color3.fromRGB(230, 240, 242)
+                bar.BackgroundColor3 = Color3.fromRGB(34,199,78)
                 bar.BorderColor3 = Color3.fromRGB(30, 30, 30)
                 bar.Size = UDim2.fromScale(DefaultScale, 1)
 

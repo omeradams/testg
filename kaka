@@ -664,7 +664,7 @@ function Library.Render(settings)
 
                 Stroke.Parent = ButtonElement
                 Stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-                Stroke.Color = Color3.fromRGB(114, 150, 164)
+                Stroke.Color = Color3.fromRGB(34,199,78)
                 Stroke.LineJoinMode = Enum.LineJoinMode.Round
                 Stroke.Thickness = .6
                 Stroke.Transparency = 1
@@ -677,7 +677,7 @@ function Library.Render(settings)
                 end)
                 ButtonElement.MouseButton1Click:Connect(function()
                     task.spawn(pcall, Callback)
-                    CircleAnim(ButtonElement, Color3.fromRGB(114, 150, 164), Color3.fromRGB(55, 55, 55))
+                    CircleAnim(ButtonElement, Color3.fromRGB(34,199,78), Color3.fromRGB(55, 55, 55))
                 end)
             end
     
@@ -799,7 +799,7 @@ function Library.Render(settings)
 
                     Stroke.Parent = dropItem
                     Stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-                    Stroke.Color = Color3.fromRGB(114, 150, 164)
+                    Stroke.Color = Color3.fromRGB(34,199,78)
                     Stroke.LineJoinMode = Enum.LineJoinMode.Round
                     Stroke.Thickness = .6
                     Stroke.Transparency = 1
@@ -931,7 +931,7 @@ function Library.Render(settings)
                 FireConnections()
                 if State then
                     check.Rotation = 0
-                    Tracker.BackgroundColor3 = Color3.fromRGB(114, 150, 164)
+                    Tracker.BackgroundColor3 = Color3.fromRGB(34,199,78)
                     Shadow.ImageTransparency = 0
                 else
                     check.Rotation = 100
@@ -952,7 +952,7 @@ function Library.Render(settings)
                             Info[T]["State"] = State
                             FireConnections()
 
-                            local NewColour = State and Color3.fromRGB(114, 150, 164) or Color3.fromRGB(40, 40, 40)
+                            local NewColour = State and Color3.fromRGB(34,199,78) or Color3.fromRGB(40, 40, 40)
                             local NewTrans = State and 0 or 90
                             local NewImage = State and 0 or 1
                             TweenService:Create(Shadow, TweenInfo.new(.25), { ImageTransparency = NewImage }):Play()
@@ -969,7 +969,7 @@ function Library.Render(settings)
                     Info[T]["State"] = State 
                     FireConnections()
 
-                    local NewColour = State and Color3.fromRGB(114, 150, 164) or Color3.fromRGB(40, 40, 40)
+                    local NewColour = State and Color3.fromRGB(34,199,78) or Color3.fromRGB(40, 40, 40)
                     local NewTrans = State and 0 or 90
                     local NewImage = State and 0 or 1
                     TweenService:Create(Shadow, TweenInfo.new(.25), { ImageTransparency = NewImage }):Play()
@@ -1257,7 +1257,7 @@ function Library.Render(settings)
 
                 Stroke.Parent = dropItem
                 Stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-                Stroke.Color = Color3.fromRGB(114, 150, 164)
+                Stroke.Color = Color3.fromRGB(34,199,78)
                 Stroke.LineJoinMode = Enum.LineJoinMode.Round
                 Stroke.Thickness = .6
                 Stroke.Transparency = 1
@@ -1413,7 +1413,7 @@ function Library.Render(settings)
 
                 Stroke.Parent = Input
                 Stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-                Stroke.Color = Color3.fromRGB(114, 150, 164)
+                Stroke.Color = Color3.fromRGB(34,199,78)
                 Stroke.LineJoinMode = Enum.LineJoinMode.Round
                 Stroke.Thickness = .6
                 Stroke.Transparency = 1
@@ -1562,7 +1562,7 @@ function Library.Render(settings)
 
                 Stroke.Parent = Input
                 Stroke.ApplyStrokeMode = Enum.ApplyStrokeMode.Border
-                Stroke.Color = Color3.fromRGB(114, 150, 164)
+                Stroke.Color = Color3.fromRGB(34,199,78)
                 Stroke.LineJoinMode = Enum.LineJoinMode.Round
                 Stroke.Thickness = .6
                 Stroke.Transparency = 1
